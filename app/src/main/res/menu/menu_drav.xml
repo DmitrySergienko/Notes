@@ -3,25 +3,25 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
         android:id="@+id/option_one"
-        android:title="Option One"
+        android:title="Content"
         app:showAsAction="always">
 
     </item>
     <item
         android:id="@+id/option_two"
-        android:title="Option Two"
+        android:title="Photo"
         app:showAsAction="always">
 
     </item>
     <item
         android:id="@+id/option_three"
-        android:title="Option Three"
+        android:title="Description"
         app:showAsAction="always">
 
     </item>
     <item
         android:id="@+id/option_fore"
-        android:title="Option Fore"
+        android:title="Info"
         app:showAsAction="always">
 
     </item>
