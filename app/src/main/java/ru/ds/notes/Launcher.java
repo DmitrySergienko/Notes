@@ -19,7 +19,7 @@ public class Launcher extends AppCompatActivity {
     }
 
     public void onStartLaunch(View view) {
-        Intent intent = new Intent(Launcher.this, NavDrawableActivity.class);
+        Intent intent = new Intent(Launcher.this, MainActivity.class);
         startActivity(intent);
 
     }
