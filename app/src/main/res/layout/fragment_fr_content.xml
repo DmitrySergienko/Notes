@@ -10,7 +10,6 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -21,7 +20,8 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/Tv_MainFr1"
-            android:layout_width="match_parent"
+
+            android:layout_width="@dimen/btn_width"
             android:layout_height="@dimen/btn_height"
             android:layout_gravity="center"
             android:text="@string/item_1"
@@ -31,7 +31,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/Tv_MainFr2"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/btn_width"
             android:layout_height="@dimen/btn_height"
             android:text="@string/item_2"
             android:textAlignment="center"
@@ -41,7 +41,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/Tv_MainFr3"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/btn_width"
             android:layout_height="@dimen/btn_height"
             android:text="@string/item_3"
             android:textAlignment="center"
@@ -51,7 +51,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/Tv_MainFr4"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/btn_width"
             android:layout_height="@dimen/btn_height"
             android:text="@string/item_4"
             android:textAlignment="center"
@@ -61,7 +61,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/Tv_MainFr5"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/btn_width"
             android:layout_height="@dimen/btn_height"
             android:text="@string/item_5"
             android:textAlignment="center"
@@ -71,7 +71,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/Tv_MainFr6"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/btn_width"
             android:layout_height="@dimen/btn_height"
             android:text="@string/item_6"
             android:textAlignment="center"
@@ -82,7 +82,7 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/Tv_MainFr8"
-            android:layout_width="match_parent"
+            android:layout_width="@dimen/btn_width"
             android:layout_height="@dimen/btn_height"
             android:text="@string/item_8"
             android:textAlignment="center"

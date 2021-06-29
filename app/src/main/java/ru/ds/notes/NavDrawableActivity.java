@@ -2,8 +2,13 @@ package ru.ds.notes;
 
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.ExpandableListView;
+import android.widget.Toast;
+import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -18,19 +23,10 @@ public class NavDrawableActivity extends AppCompatActivity {
         setContentView(R.layout.activity_nav_drawable);
 
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
-      // Toolbar toolbar = findViewById(R.id.toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-      //ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
-      //        this,
-      //        drawerLayout,
-      //        toolbar,
-      //        R.string.app_name,
-      //        R.string.app_name
 
-      //);
-       //drawerLayout.addDrawerListener(toggle);
-       ////для сцепления шторки с toolbar
-       //toggle.syncState();
+
 
         NavigationView navigationView  = findViewById(R.id.navigation_view);
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -64,7 +60,7 @@ public class NavDrawableActivity extends AppCompatActivity {
                     return true;
 
                 }
-                if(item.getItemId() == R.id.option_three) {
+                if(item.getItemId() == R.id.option_fore) {
                     getSupportFragmentManager()
                             .beginTransaction()
                             .replace(R.id.cont, new FrInfo())
