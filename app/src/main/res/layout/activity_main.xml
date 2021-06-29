@@ -17,10 +17,7 @@
             android:choiceMode="singleChoice"
             android:dividerHeight="1dp">
 
-
-
-    >
-
+            
         </ExpandableListView>
 
     </FrameLayout>

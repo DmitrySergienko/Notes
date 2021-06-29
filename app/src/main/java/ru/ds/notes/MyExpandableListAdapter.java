@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 
@@ -86,6 +87,7 @@ public class MyExpandableListAdapter extends BaseExpandableListAdapter {
                 switch (childPosition) {
                     case 0: {
                         ((TextView) childView.findViewById(R.id.answer)).setText("Group 1 child 1");
+
                     } break;
 
                     case 1: {

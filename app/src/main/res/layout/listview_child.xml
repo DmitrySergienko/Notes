@@ -13,5 +13,11 @@
         android:text="Child name"
         android:textColor="@android:color/black"
         android:textSize="12sp" />
+    <TextView
+        android:id="@+id/picture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </TextView>
 
 </LinearLayout>
